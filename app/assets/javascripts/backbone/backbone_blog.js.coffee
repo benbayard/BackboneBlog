@@ -9,3 +9,6 @@ window.BackboneBlog =
   Collections: {}
   Routers: {}
   Views: {}
+  init: ->
+    @router = new BackboneBlog.Routers.PostsRouter()
+    Backbone.history.start()

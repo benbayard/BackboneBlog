@@ -1,0 +1,35 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.title-wrapper {
+  padding:3px;
+  background: url(/assets/title-bg.png);
+}
+.post-flair {
+  height:280px;
+  overflow:hidden;
+  text-align:center;
+}
+.post {
+  padding:15px 0px;
+  .small-info {
+    padding-top:15px;
+    text-align:right;
+  }
+  .small {
+    font-size:10px;
+    font-style:italic;
+    line-height:10px;
+    margin:5px 0px;
+    span.grey {
+      color:grey;
+      font-style:normal;
+    }
+  }
+  h2.title {
+    padding-right:15px;
+  }
+  p.summary {
+    padding-right:15px;
+  }
+}

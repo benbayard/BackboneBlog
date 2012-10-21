@@ -1,4 +1,6 @@
 BackboneBlog::Application.routes.draw do
+  resources :posts
+  root to: "posts#index"
   mount Ckeditor::Engine => '/ckeditor'
 
   # The priority is based upon order of creation:

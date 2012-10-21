@@ -1,6 +1,6 @@
 require "bundler/capistrano"
 
-set :application, "Backbone Blog"
+set :application, "backbone_blog"
 set :repository,  "https://github.com/benbayard/BackboneBlog"
 
 set :scm, :git

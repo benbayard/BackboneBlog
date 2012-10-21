@@ -29,6 +29,7 @@ gem 'acts_as_commentable'
 gem "ckeditor", "3.7.1"
 gem "paperclip"
 gem 'formtastic'
+gem "twitter-bootstrap-rails"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

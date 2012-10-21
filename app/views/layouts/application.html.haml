@@ -1,0 +1,41 @@
+!!!
+%html
+  %head
+    %title BackboneBlog
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    .row
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            %a.brand BackboneBlog
+    .container.body-container
+      .row
+        .span4
+          .sidebar-nav
+            %ul.nav-list.unstyled
+              %li.nav-header About
+              %li.about
+                This Blog is about Starcraft 2 and the amazing things that you can do with it, if you aren't as bad as I am.
+                %span.wrapper-line
+            %ul.nav-list.unstyled
+              %li.nav-header Popular Posts
+              %li.popular-posts
+                This will have some popular posts in it some day
+                %span.wrapper-line
+            %ul.nav-list.unstyled
+              %li.nav-header Recent Posts
+              %li.recent-posts
+                This will have recent posts in it some day
+                %span.wrapper-line
+            %ul.nav-list.unstyled
+              %li.nav-header Recent Tweets
+              %li.recent-tweets
+                This will have recent tweets in it some day
+                %span.wrapper-line
+        .span8
+          .title-wrapper
+            %h4 Diamond is for wimps.
+          = yield
